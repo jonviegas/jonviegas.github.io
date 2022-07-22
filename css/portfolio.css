@@ -1,0 +1,239 @@
+/* ------------- Portfolio Section ------------- */
+
+.portfolio {
+  margin: auto;
+  color: var(--gray);
+}
+
+/* Large Screens */
+@media (min-width: 992px) {
+  .portfolio {
+    padding-top: 0%;
+    padding-bottom: 5%;
+    position: relative;
+    right: 0;
+    left: 0;
+    margin-top: 7%;
+    width: 95%;
+  }
+}
+
+/* Medium and Small Sreens */
+@media (max-width: 992px) {
+  .portfolio {
+    padding: 5%;
+    margin: 3%;
+  }
+}
+
+/* ------------- Portfolio Title ------------- */
+
+.portfolio h1 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.089);
+  padding-bottom: 12px;
+}
+
+/* ------------- Portfolio Menu ------------- */
+
+/* Large Screens */
+@media (min-width: 992px) {
+  .portfolio .portfolio-menu {
+    width: 85%;
+    margin: auto;
+  }
+}
+
+.portfolio .portfolio-menu {
+  padding: 0;
+  margin-top: 4%;
+}
+
+.portfolio .portfolio-menu nav {
+  background-color: var(--purple);
+}
+
+.portfolio .portfolio-menu nav ul {
+  margin: 0;
+  text-align: center;
+}
+
+.portfolio .portfolio-menu nav ul li {
+  display: inline-block;
+}
+
+.portfolio .portfolio-menu nav ul li:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.portfolio .portfolio-menu nav ul li a {
+  text-decoration-thickness: 2px !important;
+}
+
+/* Extra Small Screens */
+@media (max-width: 454px) {
+  .portfolio .portfolio-menu {
+    margin-top: 6%;
+  }
+  .portfolio .portfolio-menu nav {
+    padding: 0 !important;
+  }
+  .portfolio .portfolio-menu nav ul {
+    text-align: center;
+  }
+  .portfolio .portfolio-menu nav ul li {
+    font-size: 1em;
+    padding-left: 0.7%;
+    padding-right: 0.7%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+}
+
+/* Small Screens */
+@media (min-width: 454px) {
+  .portfolio .portfolio-menu nav ul {
+    text-align: center;
+  }
+  .portfolio .portfolio-menu nav ul li {
+    font-size: 1.1em;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+  }
+}
+
+/* Medium Screens */
+@media (min-width: 576px) {
+  .portfolio .portfolio-menu nav ul li {
+    font-size: 1.15em;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+/* Large Screens */
+@media (min-width: 992px) {
+  .portfolio .portfolio-menu nav ul li {
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 1.32em;
+  }
+}
+.portfolio .portfolio-menu nav ul li {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.portfolio .portfolio-menu nav ul li a {
+  color: var(--gray);
+  text-decoration: none;
+}
+
+.portfolio .portfolio-menu nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ------------- Card Image ------------- */
+
+.project-card .project-card-image {
+  background-color: #030912;
+  transition: 1s;
+  padding: 0;
+}
+
+/* ------------- Card Info ------------- */
+
+.project-card .project-card-info {
+  background-color: #030912;
+  padding: 4%;
+  padding-top: 2%;
+}
+
+/* Large Screens */
+@media (min-width: 992px) {
+  .project-card .project-card-info {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
+
+/* Medium and Small Screens */
+@media (max-width: 992px) {
+  .project-card .project-card-info {
+    padding-top: 4%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 9%;
+  }
+
+  .project-card .project-card-info h2 {
+    margin-top: 0 !important;
+  }
+}
+
+.project-card .project-card-info h2 {
+  font-size: 2em;
+}
+
+.project-card .project-card-info h5 {
+  font-size: 1.2em;
+}
+
+.project-card .project-card-info ul li {
+  display: inline-block;
+  padding: 5px 10px;
+  box-shadow: 0 1px 4px rgba(255, 255, 255, 0.603);
+  margin-right: 10px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.project-card .project-card-info {
+  color: var(--gray);
+}
+
+.project-card .project-card-info a {
+  font-size: 1.3em;
+}
+
+.project-card .project-card-info i {
+  font-size: 1.3em;
+}
+
+.project-card .project-card-info .btn {
+  background-color: #5637bb;
+  color: var(--white);
+}
+
+.project-card .project-card-info .btn:hover {
+  background-color: #271a52;
+}
+
+/* Small Screens */
+@media (max-width: 478px) {
+  .project-card .project-card-info ul li {
+    margin-top: 4%;
+  }
+
+  .project-card .project-card-info h5 {
+    margin-top: 8% !important;
+    margin-bottom: 0% !important;
+  }
+
+  .project-card .project-card-info ul {
+    margin-top: 1% !important;
+  }
+
+  .project-card .project-card-info .btn {
+    margin-bottom: 4% !important;
+  }
+}
+
+/* Small Screens */
+@media (max-width: 320px) {
+  .project-card .project-card-info h2 {
+    font-size: 2.1em;
+  }
+}

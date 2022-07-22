@@ -1,0 +1,93 @@
+/* --------- Name --------- */
+
+.name {
+  top: 86px;
+  left: 5%;
+  margin-top: 20%;
+}
+
+.name h1 {
+  font-size: 5vw;
+}
+
+.name h2 {
+  font-size: 2vw;
+  font-weight: normal;
+}
+
+/* Medium Screens */
+@media (max-width: 992px) {
+  .name {
+    margin-top: 10%;
+  }
+  .name h1 {
+    font-size: 5.5vw;
+  }
+  .name h2 {
+    font-size: 2.8vw;
+    font-weight: normal;
+  }
+}
+
+/* Small Screens */
+@media (max-width: 576px) {
+  .name h1 {
+    font-size: 9vw;
+  }
+  .name h2 {
+    font-size: 4.7vw;
+  }
+}
+
+/* --------- About Me --------- */
+
+.about-me {
+  margin: 0;
+  top: 86px;
+  right: 6%;
+  margin-top: 65%;
+}
+
+.about-me h2 {
+  margin: 0;
+  font-size: 4vw;
+  padding-right: 1.408%;
+  padding-left: 10%;
+}
+
+.about-me h2 span {
+  display: inline-block;
+  margin-left: 8vw;
+}
+
+/* Large Screens */
+@media (min-width: 992px) {
+  .about-me h2 span {
+    margin-left: 6vw;
+  }
+}
+
+.about-me p {
+  margin: 0;
+  text-align: left;
+  font-size: 2vw;
+  padding-right: 1.408%;
+  padding-left: 10%;
+}
+
+/* Medium and Small Screens */
+@media (max-width: 992px) {
+  .about-me {
+    margin-top: 50%;
+  }
+  .about-me h2 {
+    font-size: 5.3vw;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .about-me p {
+    font-size: 3.6vw;
+    padding-right: 0;
+    padding-left: 10%;
+  }
+}

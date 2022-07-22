@@ -1,0 +1,71 @@
+/* --------- Nav --------- */
+
+nav {
+  background-color: var(--darkblue);
+  padding: 20px !important;
+}
+
+/* --------- Brand --------- */
+
+.brand {
+  padding: 0px;
+  margin: 0;
+  text-decoration: none !important;
+  transition: 0.7s;
+}
+
+.brand .brand-left {
+  color: var(--white);
+  border: 1px solid var(--white);
+  padding-left: 4px;
+  padding-right: 3px;
+}
+
+.brand .brand-right {
+  border: 1px solid var(--white);
+  background-color: var(--white);
+  color: var(--darkblue);
+  font-weight: bold;
+  font-size: 1em;
+  padding-right: 3px;
+  padding-left: 2px;
+}
+
+.brand:hover {
+  transition: 0.7s;
+  padding: 15px;
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+/* --------- Navigation --------- */
+
+.button-icon {
+  font-size: 32px;
+  color: var(--white);
+}
+
+.nav-option {
+  transition: 0.5s;
+}
+
+/* Large Screens */
+@media (min-width: 992px) {
+  .nav-option:hover {
+    transition: 0.7s;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+  }
+}
+
+/* Medium and Small Screens */
+@media (max-width: 992px) {
+  .nav-option:hover {
+    transition: 0.3s;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+}

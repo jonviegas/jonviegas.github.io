@@ -1,0 +1,44 @@
+.back {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  margin-bottom: -58px;
+  font-size: 1.1em;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--darkblue);
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 2.5%;
+  font-size: 1.5em;
+}
+
+/* Medium Screens */
+@media (max-width: 992px) {
+  footer ul li {
+    padding: 3%;
+  }
+}
+
+/* Small Screens */
+@media (max-width: 768px) {
+  footer ul li {
+    padding: 4%;
+  }
+}
+
+footer ul li a:hover {
+  color: rgba(240, 248, 255, 0.705);
+}
+
+footer ul li a {
+  color: var(--white);
+}

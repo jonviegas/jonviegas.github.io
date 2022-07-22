@@ -1,0 +1,47 @@
+/* --------- Font --------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 80px;
+}
+
+/* --------- CSS Variables --------- */
+
+:root {
+  --darkblue: #061119;
+  --purple: #1f213c;
+  --white: #f0f8ff;
+  --gray: #e6e6e6;
+}
+
+/* --------- Global Configurations --------- */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  margin: 0 0 0 0;
+  background-color: var(--purple);
+  color: var(--gray);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}

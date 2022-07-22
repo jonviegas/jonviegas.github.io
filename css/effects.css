@@ -1,0 +1,30 @@
+/* --------- Animations --------- */
+
+[data-anime] {
+  opacity: 0;
+  transition: 0.4s;
+}
+
+[data-anime='anime'] {
+  transform: translate3d(0, 0, -50px);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+/* --------- Menu Nav --------- */
+
+.active {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+/* --------- Portfolio Nav --------- */
+
+.hide {
+  opacity: 0;
+  transition: 0.4s;
+  transform: translate3d(0, 0, -50px);
+}

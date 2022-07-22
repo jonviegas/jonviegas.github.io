@@ -1,0 +1,95 @@
+/* --------- Skills Section --------- */
+
+.skills {
+  padding: 25px;
+  margin: auto;
+  color: var(--gray);
+}
+
+/* Large Screens */
+@media (min-width: 992px) {
+  .skills {
+    position: relative;
+    right: 0;
+    left: 0;
+    margin-top: -30%;
+    width: 95%;
+    border: 2.5px solid rgba(255, 255, 255, 0.089);
+    border-radius: 10px;
+  }
+}
+
+/* --------- Skills Title --------- */
+
+.skills h1 {
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.089);
+  padding-bottom: 12px;
+}
+
+/* Medium and Small Screens */
+@media (max-width: 992px) {
+  .skills h1 {
+    padding-top: 20px;
+  }
+}
+
+/* --------- Skill Container --------- */
+
+.skills .skills-container {
+  background-color: var(--darkblue);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+/* Large Screens */
+@media (min-width: 992px) {
+  .skills .skills-container h2 {
+    font-size: 2.1vw;
+  }
+
+  .skills .skills-container h3 {
+    font-size: 1.7vw;
+  }
+
+  .skills .skills-container p {
+    font-size: 1em;
+  }
+
+  .skills .skills-container li {
+    font-size: 1em;
+  }
+}
+
+/* Medium and Small Sreens */
+@media (max-width: 992px) {
+  .skills .skills-content {
+    margin: 0 !important;
+  }
+
+  .skills {
+    padding: 5%;
+    margin: 3%;
+  }
+
+  .skills .skills-container {
+    margin-top: 20px;
+    padding: 10%;
+  }
+}
+
+/* Extra Small Screens */
+@media (max-width: 315px) {
+  .skills .skills-container h2 {
+    font-size: 1.5em;
+  }
+}
+
+.skills .skills-container h2 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.skills .skills-container h3 {
+  font-weight: bold;
+}
